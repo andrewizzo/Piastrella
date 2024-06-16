@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundImage{
+    background-image: url('../src/assets/piastrella2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
