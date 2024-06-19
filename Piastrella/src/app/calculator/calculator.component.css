@@ -3,11 +3,14 @@
     box-shadow: 8px 8px 15px ;
 }
 
-.bg_button_custom:hover{
-    width: 210px;
-    height: 85px;
-}
-
 .font_size{
     font-size: 60px
+}
+
+.font_size_span{
+    font-size: 20px;
+}
+
+.custom_div{
+    width: 60%;
 }

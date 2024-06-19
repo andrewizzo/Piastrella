@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-@font-face {
+/* @font-face {
     font-family: 'clarinet';
     src: url('../src/assets/fonts/ClarinetDEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 html,body{
     height: 100%;
@@ -21,3 +21,9 @@ html,body{
     height: 100vh;
 }
 
+.bg_main_div{
+    background-color: rgb(90, 90, 90);
+    box-shadow: 10px 10px 30px 15px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
