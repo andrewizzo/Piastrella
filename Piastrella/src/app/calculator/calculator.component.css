@@ -1,16 +1,33 @@
-.bg_button_custom{
+.bgCustom{
     background-color: rgba(56, 59, 50, 0.631);
     box-shadow: 8px 8px 15px ;
 }
 
-.font_size{
-    font-size: 60px
+.fontSizeSpan{
+    font-size: 200%;
+    font-weight: lighter;
 }
 
-.font_size_span{
-    font-size: 20px;
+.fontSizeSpanTitle{
+    font-size: 117%;
+    font-weight: bolder;
 }
 
-.custom_div{
-    width: 60%;
+.customDiv{
+    width: 45%;
+}
+
+.rotationImg{
+    animation:rotate 5s linear infinite;
+    width: 85%;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(306deg);
+    }
 }

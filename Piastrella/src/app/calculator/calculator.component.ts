@@ -9,17 +9,22 @@ import { MatInputModule } from '@angular/material/input';
 })
 export class CalculatorComponent implements OnInit{
   risultato : number = 0;
-  lato1 : number = 0;
-  lato2 : number = 0;
-  mq : number = 0;
-  
+  lato1 : any
+  lato2 : any;
+  mq : any;
+
   ngOnInit(): void {
+    this.calcola()
+    console.log(this.risultato);
     
   }
 
+
+
   calcola(){
-    if (this.lato1 > 0 && this.lato2 > 0) {
+    if (this.lato1 > 0 && this.lato2 > 0 && this.risultato == 0 ) {
       this.risultato = (this.mq * 10000)/(this.lato1 * this.lato2)
+      console.log(this.risultato);
     }else{
       this.risultato = 0;
     }
