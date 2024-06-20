@@ -19,8 +19,6 @@ export class CalculatorComponent implements OnInit{
     
   }
 
-
-
   calcola(){
     if (this.lato1 > 0 && this.lato2 > 0 && this.risultato == 0 ) {
       this.risultato = (this.mq * 10000)/(this.lato1 * this.lato2)
@@ -28,5 +26,12 @@ export class CalculatorComponent implements OnInit{
     }else{
       this.risultato = 0;
     }
+  }
+
+  resetForm(){
+    this.lato1 = null;
+    this.lato2 = null;
+    this.mq = null;
+    this.risultato = 0;
   }
 }

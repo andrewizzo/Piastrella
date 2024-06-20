@@ -3,6 +3,16 @@
     box-shadow: 8px 8px 15px ;
 }
 
+.bgCustomButton{
+    background-color: rgba(56, 59, 50, 0.631);
+    box-shadow: 8px 8px 15px ;
+}
+
+.bgCustomButton:hover{
+    width: 125px;
+    height: 75px;
+}
+
 .fontSizeSpan{
     font-size: 200%;
     font-weight: lighter;
